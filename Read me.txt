@@ -1,0 +1,14 @@
+This is a 3D model for chess.
+each part is drawn at origin and then scaled and translated to its position.
+Camera can be moved with the following keys:
+l: left
+r: right
+u: up
+d: down
+
+There was a problem that i was not able to solve:
+When I tried to map the texture on board, lights were being disabled.
+Texture was provided in the file named "chessBoard.bmp".
+Texture mapping was done in texturing() method called within wall() function
+
+1 part of chess was left that i was not able to draw properly-"the knight"
